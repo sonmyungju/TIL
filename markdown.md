@@ -85,12 +85,12 @@ ___
 이미지의 너비나 높이는 조정할 수 없다.
 
 ```
-![파이썬 로고](images/python/python_logo.png)
+![GitHub 로고](github_logo.png)
 ```
-![파이썬 로고](images/python/python_logo.png)
+![GitHub 로고](github_logo.png)
 
-동일하게 입력한다면 images/python 의 경로에 python_logo.png 파일이 없으니 다음과 같이 출력될 것이다.\
-![파이썬 로고](images/python/python_logo.pn)
+동일하게 입력한다면 github_logo.png 파일이 없으니 다음과 같이 출력될 것이다.\
+![GitHub 로고](github_logo.pn)
 ___
 ## 텍스트 강조
 ```
