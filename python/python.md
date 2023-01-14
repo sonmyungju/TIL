@@ -52,6 +52,7 @@ round(1,23456, 2)
 ````
 1.23  
 2.675 반올림시 2.67으로 계산되니 참고
+* 숫자 뒤집기 예시
 
 ```python
 num = 358
@@ -86,6 +87,7 @@ for i in range(3):
 '10 20'.split()
 ```
 ['10', '20']
+* FizzBuzz 예시
 ```python
 for n in range(1,7):
     match (n%3, n%5):
@@ -214,9 +216,9 @@ print(type(6))
     * 부동소수점수 (float) : 2.8
     * 복소수 (complex) : 3 + 4j
 * 시퀀스 (sequence)
-    * **문자열 (str)** IMMUTABLE
+    * **문자열 (str)** <span style='background-color : #fff5b1'>*IMMUTABLE!*</span>
     * 리스트 (list)
-    * 튜플 (tuple) IMMUTABLE
+    * 튜플 (tuple) <span style='background-color : #fff5b1'>*IMMUTABLE!*</span>
     * 사용자 정의 클래스  
     슬라이싱, for문에서 사용  
 * 매핑 (mapping)
@@ -224,12 +226,12 @@ print(type(6))
 * 불 (Bool) : True, False
 * 세트 (Set) : {'apple', 'orange'}\
     원소의 순서가 유지되지 않고 중복 원소를 갖지 않음.  
->#### 시퀀스 거꾸로
+>#### [ : : -1]
 ```python
 print('Python'[::-1])
 print('Python'[2::-1])
 ```
-nohtyP
+nohtyP  
 tyP
 >#### lower / upper
 ```python
@@ -304,4 +306,9 @@ print(chr(65))
 65  
 A  
 문자에 대응하는 코드값 / 코드값에 대응하는 문자
+* 세트
+>#### add
+& 교집합  
+| 합집합
+## 5. 모듈
 
