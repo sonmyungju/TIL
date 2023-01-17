@@ -1,3 +1,5 @@
+출처 : https://wikidocs.net/book/2
+
 ## 0. 준비
 python.org 웹사이트에서 바로 작성 가능\
 pythontutor.com 단계별로 실행 가능
