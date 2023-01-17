@@ -313,4 +313,30 @@ A
 & 교집합  
 | 합집합
 ## 5. 모듈
+>#### math
+```python
+import math
+print(math.sqrt(2))
+print(math.pi)
+```
+>#### calendar
+```python
+import calendar
+calendar.prmonth(2023, 1)
+```
+23년 1월 달력 출력
+```python
+import calendar
+print(calendar.isleap(2023)) # 전체 import 했을 때 함수 사용
+```
+False
+```python
+from calendar import isleap
+print(isleap(2023))
+```
+False
+>#### tkinter
+  
+가져오기 : `from tkinter import *`  
+삭제 : `del tkinter`  
 
